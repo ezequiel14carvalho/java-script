@@ -1,0 +1,38 @@
+/* Centraliza tudo na tela com fundo cinza claro */
+body {
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+/* O card branco centralizado */
+#Container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Inputs, botões e textos espaçados */
+input, button, #diceText {
+    margin: 10px 5px;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+/* Organiza as imagens lado a lado e limita o tamanho delas */
+#diceImg {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#diceImg img {
+    width: 50px;
+    height: 50px;
+}
